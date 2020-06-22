@@ -1,8 +1,8 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "AAAA,AAAA,IAAI,AAAC,CACD,gBAAgB,CAAE,WAAW,CAChC",
     "sources": [
-        "../../sass/main.scss"
+        "../sass/main.scss"
     ],
     "names": [],
     "file": "main.min.css"
