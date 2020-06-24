@@ -80,15 +80,6 @@ img {
 
 /* Header */
 
-.container {
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1170px;
-  /* outline: 2px solid tomato; */
-}
-
 .page-header {
   background-color: var(--header-and-text-color);
   border-bottom: 1px solid #ECECEC;
@@ -295,6 +286,15 @@ background-position: center;
 
 
 /* Hero */
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+  /* outline: 2px solid tomato; */
+}
 
 .overlay {
   max-width: 1600px;

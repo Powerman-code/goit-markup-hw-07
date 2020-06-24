@@ -44,4 +44,202 @@ img {
   height: 1px;
   margin: -1px;
 }
+
+/* Header */
+.page-header {
+  background-color: #FFFFFF;
+  border-bottom: 1px solid #ECECEC;
+}
+
+.page-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1170px;
+}
+
+.logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+  color: #212121;
+  font-family: Raleway bold, sans-serif;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.logo-accent {
+  color: #2196F3;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.page-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-nav-li {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 86px;
+  padding-top: 31.5px;
+  padding-bottom: 31.5px;
+}
+
+.site-nav-li:last-child {
+  margin-right: 0;
+}
+
+.site-nav .link {
+  color: #212121;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.site-nav .link:hover, .site-nav .link:focus {
+  color: #2196F3;
+}
+
+.site-nav .link.current {
+  color: #2196F3;
+}
+
+.site-nav .link.current::after {
+  display: inline-block;
+  content: "";
+  bottom: -1px;
+  left: 0;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: #2196F3;
+  border-radius: 2px;
+}
+
+.email-and-phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.email-and-phone--item {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+.email {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-right: 31px;
+  color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.email:hover, .email:focus {
+  color: #2196F3;
+}
+
+.icon-envelope {
+  width: 16px;
+  height: 11.2px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-envelope:hover, .icon-envelope:focus {
+  fill: currentColor;
+}
+
+.icon-phone {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-phone:hover, .icon-phone:focus {
+  fill: currentColor;
+}
+
+.phone {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  color: var(--primary-text-color);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 250ms;
+          transition-duration: 250ms;
+  -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+          transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.phone:hover, .phone:focus {
+  color: #2196F3;
+}
 /*# sourceMappingURL=main.css.map */
