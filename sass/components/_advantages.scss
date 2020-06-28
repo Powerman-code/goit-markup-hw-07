@@ -4,6 +4,10 @@
     background-color: rgb(226, 194, 194);
 }
 
+.section-title {
+    @extend .visually-hidden;
+}
+
 .section-title,
 .work-title,
 .team-title,

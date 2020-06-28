@@ -35,7 +35,6 @@
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
-    /* margin: -15px; */
 }
 
 .card {
@@ -59,7 +58,6 @@
     box-sizing: border-box;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
-    /* overflow: hidden; */
     padding-left: 24px;
     padding-right: 24px;
     padding-top: 20px;
@@ -67,9 +65,6 @@
 }
 
 .portfolio-element {
-    /* position: relative;
-    overflow: hidden; */
-
     width: calc((100% - 60px) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
@@ -102,11 +97,9 @@
     }
 
     .card-description {
-        /* margin-bottom: 4px; */
-
         color: $text_color;
 
-        font-family: Roboto;
+        font-family: $main-font;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -136,7 +129,7 @@
     .overlay--text--color {
         padding: 63px 24px;
 
-        font-family: Roboto;
+        font-family: $main-font;
         font-style: normal;
         font-weight: 400;
         font-size: 18px;

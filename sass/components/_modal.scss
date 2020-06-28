@@ -14,7 +14,7 @@
 
     cursor: pointer;
 
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 2500ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    @include cubic(border-color);
 
     &:hover {
         border: 1px solid $accent-color;
@@ -26,7 +26,7 @@
     height: 11px;
     fill: $title_text_color;
 
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+    @include cubic(fill);
 
     .close-button:hover & {
         fill: $accent-color;
@@ -42,7 +42,7 @@
     background-color: rgba(0, 0, 0, 0.2);
     opacity: 1;
 
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include cubic(opacity);
 
     &.is-hidden {
         opacity: 0;
@@ -63,7 +63,7 @@
     border: 4px;
     background-color: $background_text_color;
 
-    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    @include cubic(transform);
 
     .backdrop.is-hidden & {
         transform: translate(-50%, -50%) scale(1.2);
@@ -92,7 +92,7 @@
     border-radius: 4px;
     outline: none;
 
-    font-family: Roboto;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -117,7 +117,7 @@
     transform: translateY(-50%);
 
 
-    font-family: Roboto;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -126,9 +126,7 @@
 
     color: $text_color;
 
-    transition-property: transform;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    @include cubic(transform);
 
     .form-input:focus + &,
     .form-input:not(:placeholder-shown) + & {
@@ -189,7 +187,7 @@
     display: inline-block;
     margin-left: 36px;
     margin-top: 20px;
-    font-family: Roboto;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -221,7 +219,7 @@
     display: flex;
     margin-bottom: 30px;
 
-    font-family: Roboto;
+    font-family: $main-font;
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
