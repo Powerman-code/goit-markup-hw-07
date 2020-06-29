@@ -651,9 +651,7 @@ textarea {
 }
 
 .logo-bottom {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
+  display: block;
   margin-bottom: 20px;
   color: #FFFFFF;
   font-family: Raleway, bold, sans-serif;
